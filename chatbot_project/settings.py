@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-4idqtglv+r2y1ac)qb6i#@x@g2zpv+mzbg00ylg(r!192zlro0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = [".vercel.app"]
 
 
 # Application definition
@@ -74,7 +74,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'chatbot_project.wsgi.application'
+WSGI_APPLICATION = 'chatbot_project.wsgi.app'
 
 
 # Database
